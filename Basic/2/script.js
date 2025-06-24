@@ -12,7 +12,7 @@ gsap.from(".box2", {
   rotate: 360,
   background: "blue",
   duration: 3,
-  delay: 1,
+  delay: 4,
   scale: 0.5
 });
 
@@ -21,6 +21,6 @@ gsap.to(".box3", {
   rotate: 360,
   background: "red",
   duration: 3,
-  delay: 1,
+  delay: 7,
   scale: 0.5,
 });
