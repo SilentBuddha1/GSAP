@@ -1,26 +1,28 @@
-gsap.to(".box1", {
+var animate = gsap.timeline({repeat: -1})
+
+animate.to(".box1", {
   x: 1000,
   rotate: 360,
   background: "blue",
-  duration: 3,
+  duration: 2,
   delay: 1,
   scale: 0.5,
 });
 
-gsap.from(".box2", {
+animate.from(".box2", {
   x: 1000,
   rotate: 360,
   background: "blue",
-  duration: 3,
-  delay: 4,
+  duration: 2,
+  delay: 0,
   scale: 0.5
 });
 
-gsap.to(".box3", {
+animate.to(".box3", {
   x: 1000,
   rotate: 360,
   background: "red",
-  duration: 3,
-  delay: 7,
+  duration: 2,
+  delay: 0,
   scale: 0.5,
 });
