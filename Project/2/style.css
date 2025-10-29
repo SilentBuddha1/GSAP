@@ -141,3 +141,53 @@ section {
 #card-3 .card-back {
     background-color: var(--card-3);
 }
+
+@media (max-width: 1000px) {
+    h1 {
+        font-size: 3rem;
+    }
+
+    .intro h1,
+    .outro h1 {
+        width: 100%;
+    }
+
+    .sticky {
+        height: max-content;
+        padding: 4rem 2rem;
+        flex-direction: column;
+    }
+
+    .sticky-header {
+        position: relative;
+        top: 0;
+        left: 0;
+        transform: none;
+        margin-bottom: 4rem;
+    }
+
+    .sticky-header h1 {
+        opacity: 1;
+    }
+
+    .card-container {
+        width: 100%;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .card {
+        width: 100%;
+        max-width: 400px;
+        margin: 0 auto;
+        border-radius: 20px !important;
+    }
+
+    #card-1,
+    #card-2,
+    #card-3,
+    .card-back {
+        transform: none;
+    }
+
+}
