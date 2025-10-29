@@ -25,13 +25,13 @@ img {
 }
 
 h1 {
-    font-size: 4 rem;
+    font-size: 4rem;
     font-weight: 500;
     line-height: 1;
 }
 
 p {
-    font-size: 2 rem;
+    font-size: 2rem;
     font-weight: 500;
     line-height: 1;
 }
@@ -116,7 +116,7 @@ section {
     justify-content: center;
     align-items: center;
     text-align: center;
-    transform: rotateY('180deg');
+    transform: rotateY(180deg);
     padding: 2rem;
 }
 
