@@ -1,8 +1,14 @@
+@import url(https://db.onlinewebfonts.com/c/4eb3ebdd1bb0ff2547a964c0a262dc99?family=Plain-Light);
+@import url(https://db.onlinewebfonts.com/c/9ae4f1df53e3d45a6a64ff3e403351e1?family=Plain); 
+@import url(https://db.onlinewebfonts.com/c/171879b077f6b73a7bc0d34d629967a9?family=Silk+Serif+TRIAL);
+@import url(https://db.onlinewebfonts.com/c/b78023bf8e91ba528a2b796a4733266d?family=Silk+Serif+Italic);
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Gilroy";
+    font-family: "Plain-Light";
+    color: #fff;
 }
 
 html, body {
@@ -16,6 +22,18 @@ html, body {
     position: fixed;
     z-index: 999;
     background-color: #0b0b0b;
+    padding: 20vw 10vw;
+}
+
+.line {
+    height: fit-content;
+    overflow: hidden;
+}
+
+.line h1 {
+    font-size: 6.5vw;
+    text-transform: uppercase;
+    font-weight: 900;
 }
 
 #main {
